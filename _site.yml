@@ -1,0 +1,25 @@
+name: WARBL2 Documentation
+navbar:
+  title: WARBL2 Documentation
+  left:
+  - text: Introduction
+    href: "Introduction.Rmd"
+  - text: Top Panel
+    href: "Top Panel.Rmd"
+  - text: Instrument Settings
+    href: "Instrument Settings.Rmd"
+  - text: Finger Vibrato and Slide
+    href: "Finger Vibrato and Slide.Rmd"
+  - text: Note Trigger and Register Control
+    href: "Note Trigger and Register Control.Rmd"
+  - text: Pressure and IMU Mapping
+    href: "Pressure and IMU Mapping.Rmd"
+  - text: Drones Control
+    href: "Drones Control.Rmd"
+  - text: Button Behavior
+    href: "Button Behavior.Rmd"
+  - text: Optical Sensor Calibration
+    href: "Optical Sensor Calibration.Rmd"
+  - text: WARBL2 Settings
+    href: "WARBL2 Settings.Rmd"
+
