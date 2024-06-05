@@ -4,7 +4,7 @@
 
 ## The WARBL Configuration Tool
 
-The *WARBL2 Configuration Tool* uses *MIDI* to customize the *WARBL2 Settings*. It is accessible two ways, both of which are graphically identical and produce the same results in a *Connected WARBL2*: 
+The *WARBL2 Configuration Tool* uses *MIDI* to customize the *[WARBL2 Settings](https://warbl.xyz/Configuration.html)*. It is accessible two ways, both of which are graphically identical and produce the same results in a *Connected WARBL2*: 
 
 * As a *Web Page* in any *Web MIDI-aware Web browser*, or
 * Using the dedicated *WARBL iOS/iPadOS App*
@@ -33,15 +33,3 @@ These currently include:
 
 On iOS devices you can use the free [WARBL app](https://apps.apple.com/de/app/warbl-configuration-tool/id1445377915?l), generously made by Michael Eskin of [Appcordions](https://appcordions.com/).
 
-## How To Use This Site
-
-The *Table of Contents Sidebar* on the left is scrollable:
-
-* Mouse into this area and use your *Mouse Scroll Button* or the *List Position Slider* to move up and down the list
-* Click on any heading to go directly to that *Page* or *Section*
- 
-The small *Hamburger icon* at the top left of the *Displayed Page* at the right is clickable:
-
-* Click it to *Show/Hide* the *Table of Contents* column on the left.
-
-Other small icons at the top enable different functions. Click on them to explore their function.
