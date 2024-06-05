@@ -4,7 +4,7 @@
 
 ## The WARBL Configuration Tool
 
-The *WARBL2 Configuration Tool* uses *MIDI* to customize the *[WARBL2 Settings](https://warbl.xyz/Configuration.html)*. It is accessible two ways, both of which are graphically identical and produce the same results in a *Connected WARBL2*: 
+The *WARBL2 Configuration Tool* uses *MIDI* to customize the *[WARBL2 Settings](https://warbl.xyz/configure.html)*. It is accessible two ways, both of which are graphically identical and produce the same results in a *Connected WARBL2*: 
 
 * As a *Web Page* in any *Web MIDI-aware Web browser*, or
 * Using the dedicated *WARBL iOS/iPadOS App*
