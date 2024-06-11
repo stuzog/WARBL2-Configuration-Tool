@@ -143,27 +143,6 @@
 </ul></li>
 <li class="chapter" data-level="" data-path="note-trigger-and-register-control.html"><a href="note-trigger-and-register-control.html#pressure-graph"><i class="fa fa-check"></i>Pressure Graph</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html"><i class="fa fa-check"></i>Note Trigger and Register Control</a>
-<ul>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#single-register-1"><i class="fa fa-check"></i>Single Register</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#overblow-1"><i class="fa fa-check"></i>Overblow</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#thumb-register-1"><i class="fa fa-check"></i>Thumb Register</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#bell-register-1"><i class="fa fa-check"></i>Bell Register</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#calibrate-at-startup-1"><i class="fa fa-check"></i>Calibrate at startup</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#learn-or-enter-pressure-1"><i class="fa fa-check"></i>Learn or Enter Pressure</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#invert-thumbbell-switch-1"><i class="fa fa-check"></i>Invert Thumb/Bell Switch</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#bagless-mode-1"><i class="fa fa-check"></i>Bagless Mode</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#bagbreath-1"><i class="fa fa-check"></i>Bag/Breath</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#advanced-register-control-settings-1"><i class="fa fa-check"></i>Advanced Register Control Settings</a>
-<ul>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#threshold-1"><i class="fa fa-check"></i>Threshold</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#multiplier-1"><i class="fa fa-check"></i>Multiplier</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#hysteresis-1"><i class="fa fa-check"></i>Hysteresis</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#jump-and-drop-times-1"><i class="fa fa-check"></i>Jump and Drop Times</a></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#bag-and-breath-defaults-buttons-1"><i class="fa fa-check"></i>Bag and Breath Defaults Buttons</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="note-trigger-and-register-control-1.html"><a href="note-trigger-and-register-control-1.html#pressure-graph-1"><i class="fa fa-check"></i>Pressure Graph</a></li>
-</ul></li>
 <li class="chapter" data-level="" data-path="pressure-and-imu-mapping.html"><a href="pressure-and-imu-mapping.html"><i class="fa fa-check"></i>Pressure and IMU Mapping</a>
 <ul>
 <li class="chapter" data-level="" data-path="pressure-and-imu-mapping.html"><a href="pressure-and-imu-mapping.html#pressure-mapping"><i class="fa fa-check"></i>Pressure Mapping</a>
@@ -249,11 +228,15 @@
 <div class="figcaption">Finger Vibrato and Slide Panel</div>
 </div>
 <p>WARBL mimics open-tone hole instruments by sensing the distance of your fingers from the holes and using this information to bend notes downward. It can detect your fingers a maximum of about 1 cm (~1/2”) from the holes.</p>
-<p>You can choose:
-1. Slide and vibrato
-2. Vibrato only
-3. No pitch bend, or
-4. Legato slide/vibrato.</p>
+<p>You can choose:</p>
+<ol style="list-style-type: decimal">
+<li>Slide and vibrato<br />
+</li>
+<li>Vibrato only<br />
+</li>
+<li>No pitch bend, or.</li>
+<li>Legato slide/vibrato.</li>
+</ol>
 <div id="slide" class="section level2 hasAnchor">
 <h2>Slide<a href="finger-vibrato-and-slide.html#slide" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The way <em>Slide</em> works is that lowering the finger over the highest uncovered hole will gradually flatten the current note down to the next lower note on the scale, much like on a real instrument. This can also allow you to approximate “half-holing” accidentals.</p>
@@ -272,11 +255,16 @@
 <p><em>Custom Vibrato</em> is a different <em>Vibrato</em> option only available for some <em>Fingering Patterns </em>(currently <strong>Tin Whistle</strong>, <strong>Uilleann Pipes</strong>, <strong>GHB</strong>, and <strong>Northumbrian Pipes</strong>).</p>
 <div id="tin-whistle-and-uilleann-pipes" class="section level4 hasAnchor">
 <h4><strong>Tin Whistle</strong> and <strong>Uilleann Pipes</strong><a href="finger-vibrato-and-slide.html#tin-whistle-and-uilleann-pipes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>The differences from normal <em>Vibrato</em> are as follows:
-1. Only the first and/or second fingers of the right hand are available for <em>Vibrato</em>, depending on the fingering pattern (you cannot select vibrato holes if this option is turned on).
-2. Vibrato is not cumulative, meaning that lowering more than one finger doesn’t increase the vibrato depth.
-3. If a vibrato hole is covered when a note is triggered, the note is immediately flattened (this is the major difference and may be more natural in certain circumstances).
-4. When playing a back D with <em>Uilleann Fingering</em>, uncovering a <em>Vibrato Hole</em> actually lowers the pitch instead of raising it, which is how real pipes behave.</p>
+<p>The differences from normal <em>Vibrato</em> are as follows:</p>
+<ol style="list-style-type: decimal">
+<li>Only the first and/or second fingers of the right hand are available for <em>Vibrato</em>, depending on the fingering pattern (you cannot select vibrato holes if this option is turned on).<br />
+</li>
+<li>Vibrato is not cumulative, meaning that lowering more than one finger doesn’t increase the vibrato depth.<br />
+</li>
+<li>If a vibrato hole is covered when a note is triggered, the note is immediately flattened (this is the major difference and may be more natural in certain circumstances).<br />
+</li>
+<li>When playing a back D with <em>Uilleann Fingering</em>, uncovering a <em>Vibrato Hole</em> actually lowers the pitch instead of raising it, which is how real pipes behave.</li>
+</ol>
 </div>
 <div id="ghb-and-northumbrian-pipes" class="section level4 hasAnchor">
 <h4><strong>GHB</strong> and <strong>Northumbrian Pipes</strong><a href="finger-vibrato-and-slide.html#ghb-and-northumbrian-pipes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -325,6 +313,7 @@
 <h2>Send Notes As Legato<a href="finger-vibrato-and-slide.html#send-notes-as-legato" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The <em>Send notes as Legato</em> switch causes WARBL to wait to turn off each <em>MIDI Note</em> until after the next <em>MIDI Note</em> is sent. This is the recommended setting for most <em>MIDI Apps</em> as it allows them to interpret the <em>MIDI Notes</em> as <em>legato</em>, allowing them to flow together seamlessly.</p>
 <p><a href="finger-vibrato-and-slide.html#finger-vibrato-and-slide">Repeat Section</a> – <a href="table-of-contents.html#table-of-contents">Table of Contents</a></p>
+
 </div>
 </div>
             </section>
