@@ -33,14 +33,20 @@
   padding-left: 5em !important;
   }
 
-.section h2 {
-  padding-top: 64px !important;
+.section h1{
+  padding-top: 44px !important;
   padding-bottom: 4px !important;
-  border-bottom: 1pt solid black !important;
-  }
+  border-bottom: 4pt solid black !important;
+}
+
+.section h2 {
+  padding-top: 34px !important;
+  padding-bottom: 4px !important;
+  border-bottom: 2pt solid black !important;
+}
 
 .section h3, .section h4  {
-  padding-top: 64px !important;
+  padding-top: 24px !important;
   padding-bottom: 4px !important;
   border-bottom: none !important;
   }
