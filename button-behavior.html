@@ -23,7 +23,7 @@
 <meta name="author" content="Compiled by Stuart Hertzog" />
 
 
-<meta name="date" content="2024-06-10" />
+<meta name="date" content="2024-06-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,6 +49,7 @@
 
 
 
+
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
@@ -62,7 +63,6 @@
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
 
-<link rel="stylesheet" href="WARBL2.css" type="text/css" />
 </head>
 
 <body>
@@ -75,18 +75,18 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>WARBL2 Configuration Tool</a>
 <ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#the-warbl-configuration-tool"><i class="fa fa-check"></i>The WARBL Configuration Tool</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#what-it-is-and-how-to-use-it"><i class="fa fa-check"></i>What It Is and How To Use It</a>
 <ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#using-a-web-browser"><i class="fa fa-check"></i>Using A Web Browser</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#using-warbl-iphoneipad-app"><i class="fa fa-check"></i>Using WARBL iPhone/iPad App</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#in-a-compatible-web-browser"><i class="fa fa-check"></i>In a Compatible Web Browser</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#on-an-iphone-or-ipad"><i class="fa fa-check"></i>On an iPhone or iPad</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-use-this-site"><i class="fa fa-check"></i>How To Use This Site</a>
-<ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#the-table-of-contents-toc"><i class="fa fa-check"></i>The Table of Contents (ToC)</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#moving-between-chapters"><i class="fa fa-check"></i>Moving Between Chapters</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="how-to-use-this-site.html"><a href="how-to-use-this-site.html"><i class="fa fa-check"></i>How To Use This Site</a>
+<ul>
+<li class="chapter" data-level="" data-path="how-to-use-this-site.html"><a href="how-to-use-this-site.html#navigation-sidebar"><i class="fa fa-check"></i>Navigation Sidebar</a></li>
+<li class="chapter" data-level="" data-path="how-to-use-this-site.html"><a href="how-to-use-this-site.html#global-tools-bar"><i class="fa fa-check"></i>Global Tools Bar</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="table-of-contents.html"><a href="table-of-contents.html"><i class="fa fa-check"></i>Table of Contents</a></li>
 <li class="chapter" data-level="" data-path="top-panel.html"><a href="top-panel.html"><i class="fa fa-check"></i>Top Panel</a>
@@ -325,6 +325,7 @@
     </div>
   </div>
 <script src="site_libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="site_libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="site_libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="site_libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="site_libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -365,22 +366,21 @@ gitbook.start({
 },
 "download": null,
 "search": {
-"engine": "fuse",
+"engine": "lunr",
 "options": null
 },
 "toc": {
-"collapse": "subsection",
-"scroll_highlight": true
-},
-"toc_depth": 6,
-"toc_float": {
+"collapse": "section",
+"toc_depth": 4,
+"toc_float": null,
 "collapsed": true,
 "smooth_scroll": true,
 "scroll_highlight": true
 },
-"collapse": "chapter",
-"before": null,
-"after": null
+"toolbar": {
+"position": "fixed"
+},
+"css": "WARBL2.css"
 });
 });
 </script>

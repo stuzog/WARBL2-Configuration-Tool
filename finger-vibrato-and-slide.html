@@ -23,7 +23,7 @@
 <meta name="author" content="Compiled by Stuart Hertzog" />
 
 
-<meta name="date" content="2024-06-10" />
+<meta name="date" content="2024-06-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,6 +49,7 @@
 
 
 
+
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
@@ -62,7 +63,6 @@
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
 
-<link rel="stylesheet" href="WARBL2.css" type="text/css" />
 </head>
 
 <body>
@@ -75,18 +75,18 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>WARBL2 Configuration Tool</a>
 <ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#the-warbl-configuration-tool"><i class="fa fa-check"></i>The WARBL Configuration Tool</a>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#what-it-is-and-how-to-use-it"><i class="fa fa-check"></i>What It Is and How To Use It</a>
 <ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#using-a-web-browser"><i class="fa fa-check"></i>Using A Web Browser</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#using-warbl-iphoneipad-app"><i class="fa fa-check"></i>Using WARBL iPhone/iPad App</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#in-a-compatible-web-browser"><i class="fa fa-check"></i>In a Compatible Web Browser</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#on-an-iphone-or-ipad"><i class="fa fa-check"></i>On an iPhone or iPad</a></li>
 </ul></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-use-this-site"><i class="fa fa-check"></i>How To Use This Site</a>
-<ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#the-table-of-contents-toc"><i class="fa fa-check"></i>The Table of Contents (ToC)</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#moving-between-chapters"><i class="fa fa-check"></i>Moving Between Chapters</a></li>
 </ul></li>
+<li class="chapter" data-level="" data-path="how-to-use-this-site.html"><a href="how-to-use-this-site.html"><i class="fa fa-check"></i>How To Use This Site</a>
+<ul>
+<li class="chapter" data-level="" data-path="how-to-use-this-site.html"><a href="how-to-use-this-site.html#navigation-sidebar"><i class="fa fa-check"></i>Navigation Sidebar</a></li>
+<li class="chapter" data-level="" data-path="how-to-use-this-site.html"><a href="how-to-use-this-site.html#global-tools-bar"><i class="fa fa-check"></i>Global Tools Bar</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="table-of-contents.html"><a href="table-of-contents.html"><i class="fa fa-check"></i>Table of Contents</a></li>
 <li class="chapter" data-level="" data-path="top-panel.html"><a href="top-panel.html"><i class="fa fa-check"></i>Top Panel</a>
@@ -232,15 +232,11 @@
 <div class="figcaption">Finger Vibrato and Slide Panel</div>
 </div>
 <p>WARBL mimics open-tone hole instruments by sensing the distance of your fingers from the holes and using this information to bend notes downward. It can detect your fingers a maximum of about 1 cm (~1/2”) from the holes.</p>
-<p>You can choose:</p>
-<ol style="list-style-type: decimal">
-<li>Slide and vibrato<br />
-</li>
-<li>Vibrato only<br />
-</li>
-<li>No pitch bend, or.</li>
-<li>Legato slide/vibrato.</li>
-</ol>
+<p>You can choose:
+1. Slide and vibrato
+2. Vibrato only
+3. No pitch bend, or
+4. Legato slide/vibrato.</p>
 <div id="slide" class="section level2 hasAnchor">
 <h2>Slide<a href="finger-vibrato-and-slide.html#slide" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The way <em>Slide</em> works is that lowering the finger over the highest uncovered hole will gradually flatten the current note down to the next lower note on the scale, much like on a real instrument. This can also allow you to approximate “half-holing” accidentals.</p>
@@ -259,16 +255,11 @@
 <p><em>Custom Vibrato</em> is a different <em>Vibrato</em> option only available for some <em>Fingering Patterns </em>(currently <strong>Tin Whistle</strong>, <strong>Uilleann Pipes</strong>, <strong>GHB</strong>, and <strong>Northumbrian Pipes</strong>).</p>
 <div id="tin-whistle-and-uilleann-pipes" class="section level4 hasAnchor">
 <h4><strong>Tin Whistle</strong> and <strong>Uilleann Pipes</strong><a href="finger-vibrato-and-slide.html#tin-whistle-and-uilleann-pipes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>The differences from normal <em>Vibrato</em> are as follows:</p>
-<ol style="list-style-type: decimal">
-<li>Only the first and/or second fingers of the right hand are available for <em>Vibrato</em>, depending on the fingering pattern (you cannot select vibrato holes if this option is turned on).<br />
-</li>
-<li>Vibrato is not cumulative, meaning that lowering more than one finger doesn’t increase the vibrato depth.<br />
-</li>
-<li>If a vibrato hole is covered when a note is triggered, the note is immediately flattened (this is the major difference and may be more natural in certain circumstances).<br />
-</li>
-<li>When playing a back D with <em>Uilleann Fingering</em>, uncovering a <em>Vibrato Hole</em> actually lowers the pitch instead of raising it, which is how real pipes behave.</li>
-</ol>
+<p>The differences from normal <em>Vibrato</em> are as follows:
+1. Only the first and/or second fingers of the right hand are available for <em>Vibrato</em>, depending on the fingering pattern (you cannot select vibrato holes if this option is turned on).
+2. Vibrato is not cumulative, meaning that lowering more than one finger doesn’t increase the vibrato depth.
+3. If a vibrato hole is covered when a note is triggered, the note is immediately flattened (this is the major difference and may be more natural in certain circumstances).
+4. When playing a back D with <em>Uilleann Fingering</em>, uncovering a <em>Vibrato Hole</em> actually lowers the pitch instead of raising it, which is how real pipes behave.</p>
 </div>
 <div id="ghb-and-northumbrian-pipes" class="section level4 hasAnchor">
 <h4><strong>GHB</strong> and <strong>Northumbrian Pipes</strong><a href="finger-vibrato-and-slide.html#ghb-and-northumbrian-pipes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -316,6 +307,7 @@
 <div id="send-notes-as-legato" class="section level2 hasAnchor">
 <h2>Send Notes As Legato<a href="finger-vibrato-and-slide.html#send-notes-as-legato" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The <em>Send notes as Legato</em> switch causes WARBL to wait to turn off each <em>MIDI Note</em> until after the next <em>MIDI Note</em> is sent. This is the recommended setting for most <em>MIDI Apps</em> as it allows them to interpret the <em>MIDI Notes</em> as <em>legato</em>, allowing them to flow together seamlessly.</p>
+<p><a href="finger-vibrato-and-slide.html#finger-vibrato-and-slide">Repeat Section</a> – <a href="table-of-contents.html#table-of-contents">Table of Contents</a></p>
 
 </div>
 </div>
@@ -329,6 +321,7 @@
     </div>
   </div>
 <script src="site_libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="site_libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="site_libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="site_libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="site_libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -369,22 +362,21 @@ gitbook.start({
 },
 "download": null,
 "search": {
-"engine": "fuse",
+"engine": "lunr",
 "options": null
 },
 "toc": {
-"collapse": "subsection",
-"scroll_highlight": true
-},
-"toc_depth": 6,
-"toc_float": {
+"collapse": "section",
+"toc_depth": 4,
+"toc_float": null,
 "collapsed": true,
 "smooth_scroll": true,
 "scroll_highlight": true
 },
-"collapse": "chapter",
-"before": null,
-"after": null
+"toolbar": {
+"position": "fixed"
+},
+"css": "WARBL2.css"
 });
 });
 </script>
