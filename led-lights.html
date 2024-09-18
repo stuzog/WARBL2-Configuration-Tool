@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>11 Optical Sensor Calibration | WARBL2 Configuration Tool</title>
-  <meta name="description" content="11 Optical Sensor Calibration | WARBL2 Configuration Tool" />
+  <title>12 LED Lights | WARBL2 Configuration Tool</title>
+  <meta name="description" content="12 LED Lights | WARBL2 Configuration Tool" />
   <meta name="generator" content="bookdown 0.40 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="11 Optical Sensor Calibration | WARBL2 Configuration Tool" />
+  <meta property="og:title" content="12 LED Lights | WARBL2 Configuration Tool" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="11 Optical Sensor Calibration | WARBL2 Configuration Tool" />
+  <meta name="twitter:title" content="12 LED Lights | WARBL2 Configuration Tool" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="button-behavior.html"/>
-<link rel="next" href="led-lights.html"/>
+<link rel="prev" href="optical-sensor-calibration.html"/>
+<link rel="next" href="warbl2-settings.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -233,43 +233,63 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="optical-sensor-calibration" class="section level1 hasAnchor" number="11">
-<h1><span class="header-section-number">11</span> Optical Sensor Calibration<a href="optical-sensor-calibration.html#optical-sensor-calibration" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div class="float">
-<img src="images/Optical_Sensor_Calibration.png" alt="Optical Sensor Calibration Panel" />
-<div class="figcaption">Optical Sensor Calibration Panel</div>
-</div>
-<p>The <em>Optical Sensors</em> may occasionally need to be <em>Calibrated</em>, for example
-* When the WARBL2 is new
-* If a new person is playing the device, or
-* The sensors are a bit dirty.</p>
-<p><em>Calibration</em> can also be used in a pinch to compensate for having dirty hands, but it’s much easier to wash your hands…</p>
-<div id="auto-calibrate-all-sensors" class="section level2 hasAnchor" number="11.1">
-<h2><span class="header-section-number">11.1</span> Auto-Calibrate All Sensors<a href="optical-sensor-calibration.html#auto-calibrate-all-sensors" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>If the <em>Calibration</em> is <em>Far Off</em> or you want to <em>Calibrate Quickly</em>, you can run <em>Auto-Calibration</em>.</p>
-<ol style="list-style-type: decimal">
-<li>Begin by holding the WARBL2 in a <em>Well-Lit Room</em> (but not <em>Direct Sunlight</em>) in such a way that no <em>Tone Holes</em> are covered. (Important because it gives the WARBL2 examples of <em>Raw Sensor Readings</em>)</li>
-<li>Then click <em>Begin Auto-Calibration</em>. The LED on WARBL will turn on and then you’ll have <em>10 Seconds</em> to lightly place your fingers over <em>All the Tone Holes</em>.
-Pressing harder on each <em>Tone Hole</em> will make it more difficult to “cover” them after <em>Auto-Calibration</em>.</li>
-</ol>
-<p>After this the <em>Calibration</em> should be reasonably close.</p>
-<p>The <em>Bell Sensor</em> will only be <em>Calibrated</em> if it is currently <em>Plugged In</em>. If this is the case, <em>Rest the Bell Sensor</em> on whatever <em>Surface</em> you intend to use with it, while also covering the <em>Tone Holes</em> with your fingers.</p>
-<pre><code>Note that auto-calibration is always saved immediately; it is not necessary to click Save fine calibration afterward.</code></pre>
-</div>
-<div id="auto-calibrate-bell-sensor-only" class="section level2 hasAnchor" number="11.2">
-<h2><span class="header-section-number">11.2</span> Auto-Calibrate Bell Sensor Only<a href="optical-sensor-calibration.html#auto-calibrate-bell-sensor-only" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>You also have the option of auto-calibrating only the bell sensor. This is useful because the sensor may respond differently depending on the type of clothing you’re wearing. To do this, hold WARBL up in the air so the sensor is completely uncovered, click Auto-calibrate bell sensor only, and then lower the sensor onto your knee. After five seconds, the LED with turn off and the sensor will be calibrated.</p>
-</div>
-<div id="save-fine-calibration" class="section level2 hasAnchor" number="11.3">
-<h2><span class="header-section-number">11.3</span> Save Fine Calibration<a href="optical-sensor-calibration.html#save-fine-calibration" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>After <em>Auto-Calibration</em> or for more frequent adjustments, you can just <em>Fine-Tune Each Sensor Individually</em>.</p>
+<div id="led-lights" class="section level1 hasAnchor" number="12">
+<h1><span class="header-section-number">12</span> LED Lights<a href="led-lights.html#led-lights" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The <em>LED Lights</em> at the back of the WARBL2 light in different colours according to <em>Commands</em> and <em>MIDI Messages</em> being passed to the instrument. Although the LEDs cannot easily be viewed while the instrument is being played, they can be useful for programming and debugging.</p>
+<p>They are as follows:</p>
+<div id="green" class="section level2 hasAnchor" number="12.1">
+<h2><span class="header-section-number">12.1</span> Green<a href="led-lights.html#green" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li><p>Clicking the <em>Up Arrow</em> will make it easier to “cover” the <em>Tone Hole</em></p></li>
-<li><p>Clicking the <em>Down Arrow</em> will make it more difficult.</p>
-<pre><code>  Note that when you plug in WARBL, values for each sensor will always read zero, and any changes will be relative to the current calibration.</code></pre></li>
+<li><strong>Blinks once</strong> when:
+<ul>
+<li>Powering <strong>ON</strong></li>
+<li>Connecting <strong>TO</strong> or disconnecting <strong>FROM</strong> the <em>Config Tool</em></li>
+<li>Simple commands are <strong>Received</strong> from the <em>Config Tool</em> or simple <strong>Controls changed</strong> with <em>Button Behaviours</em></li>
+</ul></li>
+<li>Blinks <strong>Three times</strong> when
+<ul>
+<li>Saving <em>Settings</em></li>
+<li>Applying the currents settings to <em>All 3 Instruments</em>, or</li>
+<li>Restoring <em>Factory Settings</em></li>
+</ul></li>
+<li>Flashes <strong>Multiple times</strong> to indicate the “number” of the new setting. These include:
+<ul>
+<li>Instrument</li>
+<li>Vibrato/slide mode,</li>
+<li>Register control mode, and</li>
+<li>Octave shift <strong>UP</strong> and <strong>DOWN</strong></li>
+</ul></li>
+<li>Stays <strong>ON</strong> for <strong>10 seconds</strong> when alibrating sensors
+<ul>
+<li><strong>5 seconds</strong> when calibrating the <em>Bell Sensor</em> alone</li>
+</ul></li>
 </ul>
-<p><em>Changes to individual sensors</em> will take place <em>immediately</em> so you can test them as you are changing them.</p>
-<pre><code>You must click Save fine calibration for the changes to be saved, otherwise the Calibration will be reset when the WARBL2 is unplugged.</code></pre>
+</div>
+<div id="blue" class="section level2 hasAnchor" number="12.2">
+<h2><span class="header-section-number">12.2</span> Blue<a href="led-lights.html#blue" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Blinks quickly</strong> when in <em>Programming (UF2) Mode</em></li>
+<li><strong>Blinks twice</strong> when connecting by <em>BLE</em></li>
+<li><strong>May blink once</strong> when opening or closing a <em>BLE App</em> on certain systems</li>
+</ul>
+</div>
+<div id="red" class="section level2 hasAnchor" number="12.3">
+<h2><span class="header-section-number">12.3</span> Red<a href="led-lights.html#red" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Pulses slowly</strong> when charging</li>
+<li>May blink approximately <strong>once per second</strong> if there is a <strong>Battery Error</strong> while attempting to charge
+<ul>
+<li>Temperature too high/low, battery missing, etc.</li>
+</ul></li>
+<li>Lights for <strong>1/2 second</strong> when <strong>powering down</strong> by a <em>Button command</em></li>
+<li>Lights for <strong>5 seconds</strong> before shutting down because of <em>Low Battery</em></li>
+</ul>
+</div>
+<div id="teal" class="section level2 hasAnchor" number="12.4">
+<h2><span class="header-section-number">12.4</span> Teal<a href="led-lights.html#teal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><strong>Flashes</strong> to indicate the <strong>Battery level</strong> when that option is triggered by a <em>Button Action</em></li>
+</ul>
 
 </div>
 </div>
@@ -278,8 +298,8 @@ Pressing harder on each <em>Tone Hole</em> will make it more difficult to “cov
           </div>
         </div>
       </div>
-<a href="button-behavior.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="led-lights.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="optical-sensor-calibration.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="warbl2-settings.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

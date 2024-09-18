@@ -90,6 +90,11 @@ optical-sensor-calibration
 auto-calibrate-all-sensors
 auto-calibrate-bell-sensor-only
 save-fine-calibration
+led-lights
+green
+blue
+red
+teal
 warbl2-settings
 battery-voltage
 ble-status
